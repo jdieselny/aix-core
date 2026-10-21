@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="A:iP">
+  <rect width="512" height="512" rx="96" fill="#0A0B0F"/>
+  <rect x="64" y="64" width="384" height="384" rx="64" fill="none" stroke="#E2E6ED" stroke-width="22"/>
+  <g fill="none" stroke="#E2E6ED" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Tactical mobile horizon aperture / crosshair -->
+    <circle cx="256" cy="256" r="92"/>
+    <line x1="256" y1="120" x2="256" y2="175"/>
+    <line x1="256" y1="337" x2="256" y2="392"/>
+    <line x1="120" y1="256" x2="175" y2="256"/>
+    <line x1="337" y1="256" x2="392" y2="256"/>
+  </g>
+  <circle cx="256" cy="256" r="14" fill="#38BDF8"/>
+</svg>

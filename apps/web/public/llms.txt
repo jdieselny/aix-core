@@ -1,0 +1,39 @@
+# A:iX Core (aix-core.com) — Sovereign Hardware Substrate
+
+> A:iX Core is the apex sovereign hardware umbrella and local-first edge compute platform for autonomous agricultural cultivation, high-density environmental automation, and private edge infrastructure. Built by J Diesel NY, LLC.
+
+## Core Taxonomy & Pillars
+
+- **A:iX (Apex Protocol & Umbrella):** The overarching sovereign hardware and protocol ecosystem (`https://aix-core.com`). No physical retail device carries this name alone.
+- **A:iG (Agent-In-Garden):** The industrial edge appliance ($499 retail turnkey). Features quad-core low-power compute, dual 2.5GbE air-gapped ports, optoisolated 24V/120V relay contacts, Chernobyl analog thermal cutoff interface, and an onboard encrypted telemetry datalake.
+- **A:iB (Agent-In-Body):** Sovereign air-gapped compute enclave, lights-out datacenter robotics, and off-grid high-assurance processing nodes.
+- **A:iP (Agent-In-Pocket):** The tactical mobile cockpit and field companion application. Direct local mTLS glance telemetry, offline-first control, and photoperiod safety interlocks.
+
+## Architectural Differentiators
+
+1. **Zero-Cloud / Local-First:** 100% of automation logic, closed-loop VPD regulation, sensor ingestion, and actuator triggering executes locally on-device. Zero mandatory cloud subscriptions, zero telemetry harvesting, and zero susceptibility to AWS/Azure cloud outages.
+2. **The 423 Photoperiod Lock Law:** During flowering dark periods, the system rejects any attempt to illuminate canopy lighting channels (HTTP 423 Locked) to strictly prevent hermaphroditic light-poisoning stress on genetics.
+3. **Chernobyl Thermal Cutoff (Fail-Closed Safety):** A physical, bimetallic snap-action 95°F thermal switch wired directly in series with lighting contactor coils. Drops all photon loads instantaneously if HVAC/cooling fails—independent of microprocessors, operating systems, or software bugs.
+4. **52-Subcarrier CSI Microwave Presence Radar:** Non-camera spatial sensing using 802.11 Wi-Fi channel state information to detect human presence, unauthorized perimeter access, and micro-canopy transpiration through walls without privacy invasion.
+
+## Products & Pricing
+
+- **Turnkey A:iG Appliance ($499.00 USD):** Fully assembled, pre-flashed, calibrated industrial autonomous cultivation controller. Dual 2.5GbE, 4-channel relay headers, Chernobyl port, CNC heatsink enclosure.
+- **Sensirion Sniffer Pod ($89.00 USD):** High-precision NDIR CO2, laboratory-grade SHT45 temperature/relative humidity sensor, and live VPD calculation.
+- **Chernobyl Safety Switch ($49.00 USD):** 95°F (35°C) analog bimetallic thermal interlock switch with dual screw terminals.
+- **Open DIY Bill of Materials ($297.00 USD):** Full public, transparent BOM for self-builders with off-the-shelf components.
+- **OP2026 Cultivator Bundle ($599.00 USD):** Includes Turnkey A:iG Appliance, 2x Sniffer Pods, 1x Chernobyl Switch, plus a voucher for a free 3-pack of feminized medical-grade seeds from sister-site `jdieselny.com`.
+
+## Sister Site & Genetics Flywheel
+
+- **J Diesel NY (`https://jdieselny.com`):** High-potency medical-grade genetics and artisanal seed bank. Pairs sovereign cultivation iron with battle-tested cultivars.
+
+## Authoritative Links
+
+- Homepage: `https://aix-core.com/`
+- Hardware Overview: `https://aix-core.com/hardware/core`
+- Open DIY Calculator: `https://aix-core.com/diy`
+- Platform Comparison: `https://aix-core.com/compare`
+- Technical Blog: `https://aix-core.com/blog`
+- Canonical Article: `https://aix-core.com/blog/death-of-cloud-grow-controllers-autonomous-sovereign-ai-hardware`
+- Machine-Readable Sitemap: `https://aix-core.com/sitemap.xml`

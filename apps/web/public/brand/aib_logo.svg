@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="titaniumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#E2E6ED" />
+      <stop offset="70%" stop-color="#9BA3B4" />
+      <stop offset="100%" stop-color="#646D82" />
+    </linearGradient>
+    <linearGradient id="steelFrame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A4050" />
+      <stop offset="50%" stop-color="#1E222D" />
+      <stop offset="100%" stop-color="#12151C" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="500" height="500" rx="40" fill="#08090D" />
+  
+  <!-- Demarcation Square Perimeter -->
+  <rect x="110" y="55" width="280" height="280" rx="18" fill="url(#steelFrame)" stroke="url(#titaniumGrad)" stroke-width="4.5" />
+  
+  <!-- Vitruvian Human / Agent-in-Body Figure -->
+  <!-- Head -->
+  <circle cx="250" cy="120" r="28" fill="none" stroke="url(#titaniumGrad)" stroke-width="6" />
+  
+  <!-- Spine / Core -->
+  <line x1="250" y1="148" x2="250" y2="245" stroke="url(#titaniumGrad)" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Outstretched Arms (Physical Boundary Contact) -->
+  <line x1="145" y1="185" x2="355" y2="185" stroke="url(#titaniumGrad)" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Left Leg -->
+  <line x1="250" y1="245" x2="185" y2="310" stroke="url(#titaniumGrad)" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Right Leg -->
+  <line x1="250" y1="245" x2="315" y2="310" stroke="url(#titaniumGrad)" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Typography: A:iB -->
+  <g transform="translate(0, 420)">
+    <!-- Letter A -->
+    <text x="145" y="0" font-family="'Oswald', Impact, 'Segoe UI', sans-serif" font-size="78" font-weight="700" fill="url(#titaniumGrad)" letter-spacing="2">A</text>
+    
+    <!-- Colon Delimiter (Namespace / Physical Binding) -->
+    <circle cx="228" cy="-36" r="6.5" fill="url(#titaniumGrad)" />
+    <circle cx="228" cy="-12" r="6.5" fill="url(#titaniumGrad)" />
+    
+    <!-- Lowercase i with dot -->
+    <text x="255" y="0" font-family="'Oswald', Impact, 'Segoe UI', sans-serif" font-size="78" font-weight="700" fill="url(#titaniumGrad)">i</text>
+    
+    <!-- Letter B -->
+    <text x="295" y="0" font-family="'Oswald', Impact, 'Segoe UI', sans-serif" font-size="78" font-weight="700" fill="url(#titaniumGrad)" letter-spacing="2">B</text>
+  </g>
+
+  <!-- Subtitle: AGENT-IN-BODY -->
+  <text x="250" y="462" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" fill="#7E879B" letter-spacing="7" text-anchor="middle">AGENT-IN-BODY</text>
+</svg>

@@ -1,0 +1,91 @@
+/* A:iX commercial shell. Local tokens only. No remote font or analytics host. */
+
+:root {
+  --aix-bg: #0A0B0F;
+  --aix-glass: rgba(18, 20, 28, 0.72);
+  --aix-glass-blur: blur(18px);
+  --aix-emerald: #34D399;
+  --aix-cyan: #38BDF8;
+  --aix-amber: #FBBF24;
+  --aix-red: #F87171;
+  --aix-text: #E7ECF3;
+  --aix-muted: #9AA3B5;
+  --aix-font-body: "DM Sans", "Inter", "Segoe UI", sans-serif;
+  --aix-font-metric: "JetBrains Mono", "Cascadia Mono", ui-monospace, monospace;
+  --aix-font-size-body: clamp(1rem, 0.94rem + 0.3vw, 1.125rem);
+  --aix-font-size-metric: clamp(0.75rem, 0.7rem + 0.2vw, 0.95rem);
+  --aix-font-size-display: clamp(1.5rem, 1.1rem + 1.6vw, 3rem);
+  --aix-space: clamp(0.75rem, 0.5rem + 1vw, 1.5rem);
+  --aix-header-height: clamp(3.5rem, 3rem + 1vw, 4.5rem);
+  color-scheme: dark;
+  background: var(--aix-bg);
+  color: var(--aix-text);
+  font-family: var(--aix-font-body);
+  font-size: var(--aix-font-size-body);
+  scrollbar-gutter: stable;
+}
+
+.aix-shell {
+  container-type: inline-size;
+  container-name: aix;
+  background: var(--aix-bg);
+  color: var(--aix-text);
+  font-family: var(--aix-font-body);
+  min-height: 100%;
+}
+
+.aix-glass {
+  background: var(--aix-glass);
+  backdrop-filter: var(--aix-glass-blur);
+  border: 1px solid rgba(231, 236, 243, 0.12);
+  border-radius: 16px;
+}
+
+.aix-metric {
+  font-family: var(--aix-font-metric);
+  font-size: var(--aix-font-size-metric);
+  font-variant-numeric: tabular-nums;
+}
+
+.aix-display {
+  font-size: var(--aix-font-size-display);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+@container aix (min-width: 40rem) {
+  .aix-shell {
+    --aix-space: clamp(1rem, 0.6rem + 1.2vw, 2rem);
+  }
+
+  .aix-display {
+    font-size: clamp(2rem, 1.4rem + 2vw, 3.5rem);
+  }
+}
+
+@container aix (max-width: 39.99rem) {
+  .aix-header-links {
+    font-size: clamp(0.7rem, 0.66rem + 0.3vw, 0.85rem);
+  }
+}
+
+.aix-storefront {
+  display: grid;
+  gap: var(--aix-space);
+}
+
+.aix-storefront > input#checkout-open {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.aix-storefront [data-drawer="checkout"] {
+  display: none;
+}
+
+.aix-storefront:has(#checkout-open:checked) [data-drawer="checkout"] {
+  display: grid;
+}

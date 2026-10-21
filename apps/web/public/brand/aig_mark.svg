@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="A:iG">
+  <rect width="512" height="512" rx="96" fill="#0A0B0F"/>
+  <rect x="64" y="64" width="384" height="384" rx="64" fill="none" stroke="#E2E6ED" stroke-width="22"/>
+  <g fill="none" stroke="#E2E6ED" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center botanical spine -->
+    <line x1="256" y1="400" x2="256" y2="175"/>
+    <circle cx="256" cy="145" r="28"/>
+    <!-- Left canopy leaf curve -->
+    <path d="M 256 295 C 190 280 170 215 170 180 C 215 180 245 220 256 250"/>
+    <!-- Right canopy leaf curve -->
+    <path d="M 256 295 C 322 280 342 215 342 180 C 297 180 267 220 256 250"/>
+  </g>
+  <circle cx="256" cy="145" r="12" fill="#34D399"/>
+</svg>

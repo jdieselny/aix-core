@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="A:iG Agent-In-Garden">
+  <rect width="720" height="220" rx="16" fill="#0A0B0F" stroke="#1e2030" stroke-width="2"/>
+  <!-- mark -->
+  <rect x="28" y="28" width="164" height="164" rx="28" fill="none" stroke="#E2E6ED" stroke-width="7"/>
+  <g fill="none" stroke="#E2E6ED" stroke-width="7" stroke-linecap="round">
+    <line x1="110" y1="164" x2="110" y2="76"/>
+    <circle cx="110" cy="62" r="12"/>
+    <path d="M 110 120 C 82 114 74 86 74 72 C 92 72 105 88 110 102"/>
+    <path d="M 110 120 C 138 114 146 86 146 72 C 128 72 115 88 110 102"/>
+  </g>
+  <circle cx="110" cy="62" r="5" fill="#34D399"/>
+  <!-- wordmark -->
+  <text x="220" y="118" font-family="Oswald, Impact, sans-serif" font-size="72" font-weight="700" fill="#E2E6ED" letter-spacing="4">A:iG</text>
+  <text x="220" y="152" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#34D399" letter-spacing="6">AGENT-IN-GARDEN</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="A:iP Agent-In-Pocket">
+  <rect width="720" height="220" rx="16" fill="#0A0B0F" stroke="#1e2030" stroke-width="2"/>
+  <!-- mark -->
+  <rect x="28" y="28" width="164" height="164" rx="28" fill="none" stroke="#E2E6ED" stroke-width="7"/>
+  <g fill="none" stroke="#E2E6ED" stroke-width="7" stroke-linecap="round">
+    <circle cx="110" cy="110" r="40"/>
+    <line x1="110" y1="52" x2="110" y2="76"/>
+    <line x1="110" y1="144" x2="110" y2="168"/>
+    <line x1="52" y1="110" x2="76" y2="110"/>
+    <line x1="144" y1="110" x2="168" y2="110"/>
+  </g>
+  <circle cx="110" cy="110" r="6" fill="#38BDF8"/>
+  <!-- wordmark -->
+  <text x="220" y="118" font-family="Oswald, Impact, sans-serif" font-size="72" font-weight="700" fill="#E2E6ED" letter-spacing="4">A:iP</text>
+  <text x="220" y="152" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#38BDF8" letter-spacing="6">AGENT-IN-POCKET</text>
+</svg>

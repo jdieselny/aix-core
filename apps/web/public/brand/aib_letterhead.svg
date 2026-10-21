@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="A:iB Agent-In-Body">
+  <rect width="720" height="220" rx="16" fill="#0A0B0F" stroke="#1e2030" stroke-width="2"/>
+  <!-- stick-in-box mark -->
+  <rect x="28" y="28" width="164" height="164" rx="28" fill="none" stroke="#E2E6ED" stroke-width="7"/>
+  <g fill="none" stroke="#E2E6ED" stroke-width="7" stroke-linecap="round">
+    <circle cx="110" cy="72" r="16"/>
+    <line x1="110" y1="88" x2="110" y2="128"/>
+    <line x1="72" y1="104" x2="148" y2="104"/>
+    <line x1="110" y1="128" x2="82" y2="168"/>
+    <line x1="110" y1="128" x2="138" y2="168"/>
+  </g>
+  <!-- wordmark -->
+  <text x="220" y="118" font-family="Oswald, Impact, sans-serif" font-size="72" font-weight="700" fill="#E2E6ED" letter-spacing="4">A:iB</text>
+  <text x="220" y="152" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#6b7089" letter-spacing="6">AGENT-IN-BODY</text>
+</svg>
