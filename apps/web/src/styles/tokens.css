@@ -5,9 +5,10 @@
   --aix-glass: rgba(18, 20, 28, 0.72);
   --aix-glass-blur: blur(18px);
   --aix-emerald: #34D399;
-  --aix-cyan: #38BDF8;
   --aix-highlight: #FF334B;
   --aix-crimson: #FF334B;
+  --aix-card: rgba(18, 20, 29, 0.8);
+  --aix-border: rgba(255, 51, 75, 0.2);
   --aix-amber: #FBBF24;
   --aix-red: #F87171;
   --aix-text: #E7ECF3;

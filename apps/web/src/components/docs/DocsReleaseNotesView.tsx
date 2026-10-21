@@ -54,7 +54,7 @@ export function DocsReleaseNotesView() {
             color: "#CBD5E1",
           }}
         >
-          <h3 style={{ fontSize: "1rem", color: "#38BDF8", marginBottom: "0.5rem" }}>Major System Landings:</h3>
+          <h3 style={{ fontSize: "1rem", color: "#FF334B", marginBottom: "0.5rem" }}>Major System Landings:</h3>
           <ul style={{ paddingLeft: "1.25rem", margin: "0 0 1rem 0" }}>
             <li>
               <strong>Sovereign Apex Umbrella:</strong> Deployed <code>aix-core.com</code> on Vercel Edge with zero third-party telemetry.

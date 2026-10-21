@@ -25,8 +25,8 @@ const CSS = `
   gap: 8px;
 }
 .aix-shot-picks label {
-  border: 1px solid #38BDF8;
-  color: #38BDF8;
+  border: 1px solid rgba(255, 51, 75, 0.85);
+  color: #FF334B;
   border-radius: 999px;
   padding: 6px 10px;
   font-family: "JetBrains Mono", "Cascadia Mono", ui-monospace, monospace;
@@ -68,8 +68,9 @@ const CSS = `
 #aip-hand-shot:checked ~ .aix-shot-picks label[for="aip-hand-shot"],
 #aip-glance-shot:checked ~ .aix-shot-picks label[for="aip-glance-shot"],
 #aip-radar-shot:checked ~ .aix-shot-picks label[for="aip-radar-shot"] {
-  background: #38BDF8;
+  background: linear-gradient(135deg, #FF334B 0%, #FF7A59 100%);
   color: #0A0B0F;
+  box-shadow: 0 0 16px rgba(255, 51, 75, 0.45);
 }
 @container aix (max-width: 40rem) {
   .aix-trifecta { grid-template-columns: 1fr; }
@@ -90,7 +91,7 @@ const card: CSSProperties = {
 
 const kicker: CSSProperties = {
   margin: 0,
-  color: "#38BDF8",
+  color: "#FF334B",
   fontFamily: '"JetBrains Mono", "Cascadia Mono", ui-monospace, monospace',
   fontSize: 12,
   letterSpacing: "0.08em",

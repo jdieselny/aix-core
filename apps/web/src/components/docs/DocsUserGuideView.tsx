@@ -47,7 +47,7 @@ export function DocsUserGuideView() {
             borderRadius: "6px",
             fontFamily: 'ui-monospace, "JetBrains Mono", monospace',
             fontSize: "0.85rem",
-            color: "#38BDF8",
+            color: "#FF334B",
             margin: "1rem 0",
           }}
         >

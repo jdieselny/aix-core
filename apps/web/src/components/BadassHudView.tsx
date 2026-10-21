@@ -98,9 +98,9 @@ export function BadassHudView() {
           </span>
           <span
             style={{
-              background: "rgba(56, 189, 248, 0.15)",
-              color: "#38BDF8",
-              border: "1px solid rgba(56, 189, 248, 0.3)",
+              background: "rgba(255, 51, 75, 0.15)",
+              color: "#FF334B",
+              border: "1px solid rgba(255, 51, 75, 0.3)",
               borderRadius: 6,
               padding: "0.2rem 0.6rem",
               fontSize: "0.75rem",
@@ -163,7 +163,7 @@ export function BadassHudView() {
               setLayoutMode("default")
             }}
             style={{
-              background: layoutMode === "default" ? "#38BDF8" : "rgba(255, 255, 255, 0.06)",
+              background: layoutMode === "default" ? "#FF334B" : "rgba(255, 255, 255, 0.06)",
               color: layoutMode === "default" ? "#07080B" : "#E2E8F0",
               border: "none",
               borderRadius: 6,
@@ -275,7 +275,7 @@ export function BadassHudView() {
             </div>
             <div style={{ background: "#0D0F16", padding: "0.75rem", borderRadius: 8 }}>
               <div style={{ fontSize: "0.7rem", color: "#94A3B8" }}>RELATIVE HUMIDITY</div>
-              <div style={{ fontSize: "1.4rem", fontWeight: 700, color: "#38BDF8" }}>62.1%</div>
+              <div style={{ fontSize: "1.4rem", fontWeight: 700, color: "#FF334B" }}>62.1%</div>
               <div style={{ fontSize: "0.65rem", color: "#64748B" }}>Quest Dehum Idle</div>
             </div>
             <div style={{ background: "#0D0F16", padding: "0.75rem", borderRadius: 8 }}>
@@ -322,7 +322,7 @@ export function BadassHudView() {
             }}
           >
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <span style={{ fontSize: "0.8rem", color: "#38BDF8", fontWeight: 700 }}>
+              <span style={{ fontSize: "0.8rem", color: "#FF334B", fontWeight: 700 }}>
                 [ MULTI-RESERVOIR BATCH TIMERS // DRY SALTS ]
               </span>
               <span style={{ fontSize: "0.75rem", color: "#34D399", fontWeight: 700 }}>
@@ -360,7 +360,7 @@ export function BadassHudView() {
                         style={{
                           fontSize: "1.4rem",
                           fontWeight: 800,
-                          color: isUrgent ? "#F59E0B" : "#38BDF8",
+                          color: isUrgent ? "#F59E0B" : "#FF334B",
                           letterSpacing: "0.04em",
                         }}
                       >
@@ -376,7 +376,7 @@ export function BadassHudView() {
                         style={{
                           height: "100%",
                           width: `${progressPct}%`,
-                          background: isUrgent ? "#F59E0B" : "#38BDF8",
+                          background: isUrgent ? "#F59E0B" : "#FF334B",
                           borderRadius: 2,
                         }}
                       />
@@ -408,7 +408,7 @@ export function BadassHudView() {
                 <div>
                   <div style={{ color: "#64748B" }}>TABLE 2</div>
                   <div style={{ fontWeight: 700, color: "#F8FAFC" }}>61.2% VWC</div>
-                  <div style={{ fontSize: "0.65rem", color: "#38BDF8" }}>Field Capacity</div>
+                  <div style={{ fontSize: "0.65rem", color: "#FF334B" }}>Field Capacity</div>
                 </div>
                 <div>
                   <div style={{ color: "#64748B" }}>TABLE 3</div>
@@ -491,11 +491,11 @@ export function BadassHudView() {
                 border: "1px solid rgba(255, 255, 255, 0.06)",
               }}
             >
-              <div style={{ fontSize: "0.75rem", color: "#38BDF8", fontWeight: 700, marginBottom: "0.4rem" }}>
+              <div style={{ fontSize: "0.75rem", color: "#FF334B", fontWeight: 700, marginBottom: "0.4rem" }}>
                 FERTIGATION PULSE SEQUENCE
               </div>
               <div style={{ fontSize: "0.85rem", color: "#E2E8F0" }}>
-                Next Scheduled Pulse: <span style={{ fontWeight: 700, color: "#38BDF8" }}>42m 00s</span>
+                Next Scheduled Pulse: <span style={{ fontWeight: 700, color: "#FF334B" }}>42m 00s</span>
               </div>
               <div style={{ fontSize: "0.75rem", color: "#94A3B8", marginTop: "0.2rem" }}>
                 Pulse Volume: 60s runtime @ 2.2 EC · Athena Bloom Line

@@ -39,7 +39,7 @@ export function DocsBrochureView() {
           <div style={{ color: "#94A3B8", fontSize: "0.85rem" }}>Pre-assembled, calibrated, burned-in industrial edge computer with dual 2.5GbE and local datalake.</div>
         </div>
         <div style={{ background: "#11141C", padding: "1.5rem", borderRadius: "10px", border: "1px solid rgba(255,255,255,0.06)" }}>
-          <div style={{ color: "#38BDF8", fontWeight: 800, fontSize: "1.75rem", marginBottom: "0.25rem" }}>$297</div>
+          <div style={{ color: "#FF334B", fontWeight: 800, fontSize: "1.75rem", marginBottom: "0.25rem" }}>$297</div>
           <div style={{ fontWeight: 700, color: "#FFFFFF", marginBottom: "0.5rem" }}>Open DIY BOM</div>
           <div style={{ color: "#94A3B8", fontSize: "0.85rem" }}>100% transparent public bill of materials for self-builders. Radical transparency builds viral authority.</div>
         </div>
@@ -66,8 +66,8 @@ export function DocsBrochureView() {
               vulnerabilities and guaranteed crop safety.
             </p>
           </div>
-          <div style={{ background: "#11141C", padding: "1.5rem", borderRadius: "10px", border: "1px solid rgba(56, 189, 248, 0.2)" }}>
-            <h3 style={{ fontSize: "1.2rem", fontWeight: 700, color: "#38BDF8", marginBottom: "0.5rem" }}>
+          <div style={{ background: "#11141C", padding: "1.5rem", borderRadius: "10px", border: "1px solid rgba(255, 51, 75, 0.2)" }}>
+            <h3 style={{ fontSize: "1.2rem", fontWeight: 700, color: "#FF334B", marginBottom: "0.5rem" }}>
               A:iB (Agent-In-Body)
             </h3>
             <p style={{ color: "#94A3B8", fontSize: "0.875rem", lineHeight: 1.6 }}>

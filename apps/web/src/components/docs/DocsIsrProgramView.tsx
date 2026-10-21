@@ -34,7 +34,7 @@ export function DocsIsrProgramView() {
       {/* Thesis Callout */}
       <div
         style={{
-          background: "linear-gradient(135deg, rgba(52, 211, 153, 0.08), rgba(56, 189, 248, 0.05))",
+          background: "linear-gradient(135deg, rgba(52, 211, 153, 0.08), rgba(255, 51, 75, 0.05))",
           border: "1px solid rgba(52, 211, 153, 0.3)",
           borderRadius: "12px",
           padding: "1.75rem",
@@ -58,7 +58,7 @@ export function DocsIsrProgramView() {
         </h2>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
           <div style={{ background: "#11141C", padding: "1.5rem", borderRadius: "10px", border: "1px solid rgba(255,255,255,0.06)" }}>
-            <div style={{ color: "#38BDF8", fontWeight: 700, marginBottom: "0.5rem" }}>A. Free App with Seeds</div>
+            <div style={{ color: "#FF334B", fontWeight: 700, marginBottom: "0.5rem" }}>A. Free App with Seeds</div>
             <p style={{ color: "#94A3B8", fontSize: "0.875rem", lineHeight: 1.5 }}>
               Every 5-pack or 10-pack of medical-grade feminized seeds ordered on <code>jdieselny.com</code> comes
               with a custom scratch-off voucher unlocking 90 days of the A:iP Mobile Cockpit cloudless telemetry app.
@@ -104,7 +104,7 @@ export function DocsIsrProgramView() {
               </tr>
               <tr>
                 <td style={{ padding: "0.75rem 1rem", fontWeight: 600 }}>Breeder / Influencer ISR</td>
-                <td style={{ padding: "0.75rem 1rem", color: "#38BDF8" }}>Custom Joint Bundles</td>
+                <td style={{ padding: "0.75rem 1rem", color: "#FF334B" }}>Custom Joint Bundles</td>
                 <td style={{ padding: "0.75rem 1rem" }}>Co-branded packaging + dedicated landing page</td>
                 <td style={{ padding: "0.75rem 1rem", color: "#94A3B8" }}>Established seed brand or channel</td>
               </tr>
@@ -114,7 +114,7 @@ export function DocsIsrProgramView() {
       </section>
 
       {/* Enrollment */}
-      <section style={{ textAlign: "center", padding: "2rem", background: "rgba(56, 189, 248, 0.05)", borderRadius: "10px", border: "1px solid rgba(56, 189, 248, 0.2)" }}>
+      <section style={{ textAlign: "center", padding: "2rem", background: "rgba(255, 51, 75, 0.05)", borderRadius: "10px", border: "1px solid rgba(255, 51, 75, 0.2)" }}>
         <h3 style={{ fontSize: "1.3rem", fontWeight: 700, color: "#FFFFFF", marginBottom: "0.5rem" }}>
           Join the A:iX ISR Representative Network
         </h3>
@@ -128,8 +128,9 @@ export function DocsIsrProgramView() {
           style={{
             display: "inline-block",
             padding: "0.75rem 1.75rem",
-            background: "#38BDF8",
+            background: "linear-gradient(135deg, #FF334B 0%, #FF7A59 100%)",
             color: "#0A0B0F",
+            boxShadow: "0 0 18px rgba(255, 51, 75, 0.4)",
             fontWeight: 800,
             textDecoration: "none",
             borderRadius: "6px",

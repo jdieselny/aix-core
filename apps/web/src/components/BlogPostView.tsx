@@ -68,7 +68,7 @@ export function BlogPostView() {
             href="https://jdieselny.com"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#38BDF8", textDecoration: "none" }}
+            style={{ color: "#FF334B", textDecoration: "none" }}
           >
             Seeds (jdieselny.com) ↗
           </a>
@@ -210,8 +210,8 @@ export function BlogPostView() {
           <div
             style={{
               padding: "1.25rem",
-              background: "rgba(56, 189, 248, 0.05)",
-              borderLeft: "3px solid #38BDF8",
+              background: "rgba(255, 51, 75, 0.05)",
+              borderLeft: "3px solid #FF334B",
               borderRadius: "0 6px 6px 0",
               margin: "1.5rem 0",
               fontSize: "0.95rem",
@@ -511,7 +511,7 @@ export function BlogPostView() {
                 href="https://jdieselny.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "#38BDF8", textDecoration: "underline" }}
+                style={{ color: "#FF334B", textDecoration: "underline" }}
               >
                 J Diesel NY (jdieselny.com)
               </a>
@@ -584,7 +584,7 @@ export function BlogPostView() {
             marginTop: "3rem",
             padding: "2.5rem",
             background:
-              "linear-gradient(135deg, rgba(52, 211, 153, 0.08), rgba(56, 189, 248, 0.05))",
+              "linear-gradient(135deg, rgba(52, 211, 153, 0.08), rgba(255, 51, 75, 0.05))",
             border: "1px solid rgba(52, 211, 153, 0.3)",
             borderRadius: "12px",
             textAlign: "center",

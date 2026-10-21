@@ -1,0 +1,8 @@
+{
+  "name": "aix-core-cleanroom",
+  "private": true,
+  "scripts": {
+    "typecheck": "npm --prefix apps/web run typecheck",
+    "build": "npm --prefix apps/web run build"
+  }
+}

@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import { BadassHudView } from "../../components/BadassHudView.js"
+import { BadassProjectionHud } from "../../components/BadassProjectionHud.js"
+import { SubstrateDrybackTelemetryCard } from "../../components/SubstrateDrybackTelemetryCard.js"
 
 export const metadata: Metadata = {
   title: "B.A.D.-A.S.S. System · Big Ass Display Automated Selective Showcase | A:iX Core",
@@ -12,5 +14,11 @@ export const metadata: Metadata = {
 }
 
 export default function BadassPage() {
-  return <BadassHudView />
+  return (
+    <div style={{ background: "#0A0B0F", display: "grid", gap: "1.25rem" }}>
+      <BadassProjectionHud />
+      <SubstrateDrybackTelemetryCard />
+      <BadassHudView />
+    </div>
+  )
 }

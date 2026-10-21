@@ -150,10 +150,10 @@ export default function HclPage() {
                         fontSize: "0.7rem",
                         fontFamily: '"JetBrains Mono", monospace',
                         fontWeight: 700,
-                        color: item.status.includes("TIER 1") ? "#34D399" : "#38BDF8",
+                        color: item.status.includes("TIER 1") ? "#34D399" : "#FF334B",
                         background: item.status.includes("TIER 1")
                           ? "rgba(52, 211, 153, 0.15)"
-                          : "rgba(56, 189, 248, 0.15)",
+                          : "rgba(255, 51, 75, 0.15)",
                         padding: "0.2rem 0.5rem",
                         borderRadius: 4,
                       }}

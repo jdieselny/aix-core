@@ -73,8 +73,10 @@ export function DocsLayout({
       {/* Top Bar */}
       <header
         style={{
-          borderBottom: "1px solid rgba(255, 255, 255, 0.08)",
+          borderBottom: "2px solid transparent",
+          borderImage: "linear-gradient(90deg, #34D399, #FF334B) 1",
           background: "rgba(10, 11, 15, 0.85)",
+          boxShadow: "0 10px 28px rgba(255, 51, 75, 0.12)",
           backdropFilter: "blur(12px)",
           position: "sticky",
           top: 0,
@@ -142,7 +144,7 @@ export function DocsLayout({
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                color: "#38BDF8",
+                color: "#FF334B",
                 textDecoration: "none",
                 fontWeight: 600,
               }}
@@ -267,7 +269,7 @@ export function DocsLayout({
               rel="noopener noreferrer"
               style={{
                 display: "inline-block",
-                color: "#38BDF8",
+                color: "#FF334B",
                 marginTop: "0.5rem",
                 textDecoration: "underline",
               }}

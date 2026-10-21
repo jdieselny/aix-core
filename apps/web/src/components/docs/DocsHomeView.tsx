@@ -47,8 +47,8 @@ export function DocsHomeView() {
             key={sec.slug}
             href={`/docs/${sec.slug}`}
             style={{
-              background: "#11141C",
-              border: "1px solid rgba(255, 255, 255, 0.08)",
+              background: "linear-gradient(165deg, rgba(255, 51, 75, 0.16), #11141C 42%)",
+              border: "1px solid rgba(255, 51, 75, 0.28)",
               borderRadius: "10px",
               padding: "1.5rem",
               textDecoration: "none",
@@ -64,7 +64,7 @@ export function DocsHomeView() {
                 style={{
                   fontSize: "0.7rem",
                   fontWeight: 700,
-                  color: "#38BDF8",
+                  color: "#FF334B",
                   letterSpacing: "0.08em",
                   marginBottom: "0.5rem",
                   fontFamily: 'ui-monospace, "JetBrains Mono", monospace',

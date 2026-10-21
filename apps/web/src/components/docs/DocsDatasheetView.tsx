@@ -7,10 +7,10 @@ export function DocsDatasheetView() {
         style={{
           display: "inline-block",
           padding: "0.25rem 0.75rem",
-          background: "rgba(56, 189, 248, 0.1)",
-          border: "1px solid rgba(56, 189, 248, 0.3)",
+          background: "rgba(255, 51, 75, 0.1)",
+          border: "1px solid rgba(255, 51, 75, 0.3)",
           borderRadius: "4px",
-          color: "#38BDF8",
+          color: "#FF334B",
           fontSize: "0.75rem",
           fontWeight: 700,
           letterSpacing: "0.1em",

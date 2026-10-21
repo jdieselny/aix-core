@@ -5,7 +5,7 @@ export type ShelfStatus = "IN_STOCK" | "LOW_STOCK" | "BACKORDER"
 export interface ShelfBadge {
   status: ShelfStatus
   label: string
-  color: "#34D399" | "#FBBF24" | "#38BDF8"
+  color: "#34D399" | "#FBBF24" | "#FF334B"
 }
 
 const IN_STOCK = "[2 UNITS PRE-ASSEMBLED & BURNED IN — SHIPS IN 24H]"
@@ -19,7 +19,7 @@ export function shelfBadge(stock: number): ShelfBadge {
   if (stock === 1) {
     return { status: "LOW_STOCK", label: LOW_STOCK, color: "#FBBF24" }
   }
-  return { status: "BACKORDER", label: BACKORDER, color: "#38BDF8" }
+  return { status: "BACKORDER", label: BACKORDER, color: "#FF334B" }
 }
 
 const pill: CSSProperties = {

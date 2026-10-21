@@ -9,7 +9,7 @@ const RAILS = ["Apple Pay", "Google Pay", "Credit / Debit Card (Stripe Elements)
 const frame: CSSProperties = {
   background: "rgba(18, 20, 28, 0.72)",
   backdropFilter: "blur(18px)",
-  border: "1px solid rgba(56, 189, 248, 0.45)",
+  border: "1px solid rgba(255, 51, 75, 0.45)",
   borderRadius: 16,
   padding: "clamp(1rem, 0.8rem + 1vw, 1.5rem)",
   display: "grid",
@@ -43,7 +43,7 @@ const field: CSSProperties = {
 
 const held: CSSProperties = {
   ...metric,
-  color: "#38BDF8",
+  color: "#FF334B",
 }
 
 export function CheckoutDrawer({ confirmPurchase = false }: { confirmPurchase?: boolean }) {

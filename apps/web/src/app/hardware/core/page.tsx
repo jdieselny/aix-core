@@ -1,4 +1,6 @@
 import type { Metadata } from "next"
+import { BadassProjectionHud } from "../../../components/BadassProjectionHud.js"
+import { SubstrateDrybackTelemetryCard } from "../../../components/SubstrateDrybackTelemetryCard.js"
 
 export const metadata: Metadata = {
   title: "Turnkey A:iG Appliance ($499) · Industrial Cultivation Controller | A:iX Core",
@@ -182,6 +184,11 @@ export default function HardwareCorePage() {
             </p>
           </div>
         </div>
+      </section>
+
+      <section style={{ display: "grid", gap: "1.25rem", marginBottom: "3rem" }}>
+        <BadassProjectionHud />
+        <SubstrateDrybackTelemetryCard />
       </section>
 
       {/* CTA Section */}

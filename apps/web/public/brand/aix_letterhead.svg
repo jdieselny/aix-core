@@ -7,7 +7,7 @@
     <line x1="152" y1="68" x2="68" y2="152"/>
     <circle cx="110" cy="110" r="20"/>
   </g>
-  <circle cx="110" cy="110" r="6" fill="#38BDF8"/>
+  <circle cx="110" cy="110" r="6" fill="#FF334B"/>
   <!-- wordmark -->
   <text x="220" y="118" font-family="Oswald, Impact, sans-serif" font-size="72" font-weight="700" fill="#E2E6ED" letter-spacing="4">A:iX</text>
   <text x="220" y="152" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#6b7089" letter-spacing="6">SOVEREIGN FLEET // AGENT-IN-X</text>

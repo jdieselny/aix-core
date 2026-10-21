@@ -9,8 +9,8 @@
     <line x1="52" y1="110" x2="76" y2="110"/>
     <line x1="144" y1="110" x2="168" y2="110"/>
   </g>
-  <circle cx="110" cy="110" r="6" fill="#38BDF8"/>
+  <circle cx="110" cy="110" r="6" fill="#FF334B"/>
   <!-- wordmark -->
   <text x="220" y="118" font-family="Oswald, Impact, sans-serif" font-size="72" font-weight="700" fill="#E2E6ED" letter-spacing="4">A:iP</text>
-  <text x="220" y="152" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#38BDF8" letter-spacing="6">AGENT-IN-POCKET</text>
+  <text x="220" y="152" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#FF334B" letter-spacing="6">AGENT-IN-POCKET</text>
 </svg>

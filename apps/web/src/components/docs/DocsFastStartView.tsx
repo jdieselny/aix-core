@@ -41,7 +41,7 @@ export function DocsFastStartView() {
           marginBottom: "2.5rem",
         }}
       >
-        <h3 style={{ fontSize: "1rem", fontWeight: 700, color: "#38BDF8", marginBottom: "0.75rem" }}>
+        <h3 style={{ fontSize: "1rem", fontWeight: 700, color: "#FF334B", marginBottom: "0.75rem" }}>
           📦 Package Contents Verification
         </h3>
         <ul style={{ paddingLeft: "1.25rem", color: "#CBD5E1", margin: 0 }}>

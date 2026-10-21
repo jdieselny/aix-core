@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
+import { BadassProjectionHud } from "../../components/BadassProjectionHud.js"
 import { CompetitorMatrix } from "../../components/CompetitorMatrix.js"
+import { SubstrateDrybackTelemetryCard } from "../../components/SubstrateDrybackTelemetryCard.js"
 
 export const metadata: Metadata = {
   title: "Commercial Cultivation Controller Matrix · A:iG vs TrolMaster vs Growlink | A:iX Core",
@@ -78,6 +80,11 @@ export default function ComparePage() {
 
       <section style={{ marginBottom: "3rem" }}>
         <CompetitorMatrix />
+      </section>
+
+      <section style={{ display: "grid", gap: "1.25rem", marginBottom: "3rem" }}>
+        <BadassProjectionHud />
+        <SubstrateDrybackTelemetryCard />
       </section>
 
       <footer

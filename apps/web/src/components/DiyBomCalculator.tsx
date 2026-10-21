@@ -119,7 +119,7 @@ export function DiyBomCalculator({ omit = [] }: { omit?: readonly string[] }) {
       </article>
       <article data-column="turnkey" style={column}>
         <h2 style={{ margin: 0 }}>Turnkey A:iG Appliance</h2>
-        <p data-turnkey-total="499.00" style={{ ...price, color: "#38BDF8" }}>
+        <p data-turnkey-total="499.00" style={{ ...price, color: "#FF334B" }}>
           {formatUsd(TURNKEY_CENTS)} USD
         </p>
         <ul>
