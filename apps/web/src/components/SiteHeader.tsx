@@ -14,6 +14,7 @@ const NAV = [
   { href: "/hardware/core", label: "Hardware" },
   { href: "/docs/diy-calculator", label: "DIY Calculator" },
   { href: "/compare", label: "Compare" },
+  { href: "/badass", label: "B.A.D.-A.S.S." },
   { href: "/docs", label: "Docs" },
   { href: SISTER_SITE_URL, label: "Seeds (jdieselny)" },
 ] as const
@@ -51,8 +52,8 @@ const pip: CSSProperties = {
   width: 8,
   height: 8,
   borderRadius: 999,
-  background: "#38BDF8",
-  boxShadow: "0 0 10px #38BDF8",
+  background: "#FF334B",
+  boxShadow: "0 0 10px #FF334B",
 }
 
 const nav: CSSProperties = {
@@ -70,8 +71,8 @@ const navLink: CSSProperties = {
 const cart: CSSProperties = {
   marginLeft: "auto",
   background: "#12141C",
-  color: "#38BDF8",
-  border: "1px solid #38BDF8",
+  color: "#FF334B",
+  border: "1px solid #FF334B",
   borderRadius: 999,
   padding: "8px 12px",
   fontFamily: '"JetBrains Mono", "Cascadia Mono", ui-monospace, monospace',
@@ -91,7 +92,7 @@ export function SiteHeader({ stock, showBanner = true }: { stock: number; showBa
                 '<img src="/brand/aix_mark.svg" alt="A:iX mark" width="28" height="28" fetchpriority="low" decoding="async" style="display:block;width:28px;height:28px"/>',
             }}
           />
-          <span data-pip="cyan" style={pip} />
+          <span data-pip="red" style={pip} />
           A:iX CORE
         </a>
         <nav aria-label="On this page" style={nav}>

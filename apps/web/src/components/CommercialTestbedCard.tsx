@@ -14,7 +14,7 @@ const card: CSSProperties = {
 
 const kicker: CSSProperties = {
   margin: 0,
-  color: "#38BDF8",
+  color: "#FF334B",
   fontFamily: '"JetBrains Mono", "Cascadia Mono", ui-monospace, monospace',
   fontSize: 12,
   letterSpacing: "0.08em",

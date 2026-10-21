@@ -16,7 +16,7 @@ const price: CSSProperties = {
   margin: 0,
   fontFamily: '"JetBrains Mono", "Cascadia Mono", ui-monospace, monospace',
   fontSize: "clamp(1.4rem, 1.1rem + 1vw, 2rem)",
-  color: "#38BDF8",
+  color: "#FF334B",
 }
 
 const spec: CSSProperties = {

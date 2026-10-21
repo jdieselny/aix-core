@@ -38,7 +38,7 @@ const buy: CSSProperties = {
 }
 
 const secondary: CSSProperties = {
-  color: "#38BDF8",
+  color: "#FF334B",
   fontSize: 14,
 }
 

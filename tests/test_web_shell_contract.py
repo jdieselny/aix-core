@@ -100,8 +100,8 @@ class WebShellContractTests(unittest.TestCase):
     def test_header_brand_links_and_sister_bridge(self) -> None:
         html = self.render(2)
         self.assertIn("A:iX CORE", html)
-        self.assertIn('data-pip="cyan"', html)
-        self.assertIn("#38BDF8", html)
+        self.assertIn('data-pip="red"', html)
+        self.assertIn("#FF334B", html)
         self.assertIn(">Hardware<", html)
         self.assertIn('href="/hardware/core"', html)
         self.assertIn(">DIY Calculator<", html)
