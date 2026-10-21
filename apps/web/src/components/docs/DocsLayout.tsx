@@ -260,7 +260,7 @@ export function DocsLayout({
             <div style={{ fontWeight: 700, color: "#E7ECF3", marginBottom: "0.25rem" }}>
               Cleanroom Git Source
             </div>
-            <div>Public repo &amp; man pages available under the MIT / Continuum License.</div>
+            <div>Public repo &amp; man pages available under the MIT / Sovereign A:iX License.</div>
             <a
               href="https://github.com/jdieselny/aix-core"
               target="_blank"

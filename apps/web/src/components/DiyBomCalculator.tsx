@@ -7,7 +7,7 @@ export const TURNKEY_CENTS = 49900
 export const DIY_PARTS = [
   { id: "n100", label: "Intel N100 Quad-Core Mini-PC", cents: 13000 },
   { id: "nvme", label: "1TB TLC Industrial NVMe", cents: 4200 },
-  { id: "radio", label: "Wi-Fi 6 CSI Radio + BT 5.3", cents: 1800 },
+  { id: "radio", label: "ESP32-WROOM Microwave CSI + BLE", cents: 1800 },
   { id: "scd41", label: "Sensirion SCD41 CO2 Sensor", cents: 2200 },
   { id: "sht45", label: "Sensirion SHT45 Temp/RH", cents: 480 },
   { id: "par", label: "Calibrated PAR Quantum Photodiode", cents: 750 },

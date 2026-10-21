@@ -46,7 +46,7 @@ const SPECS = [
   "Compute: Industrial fanless quad-core mini-PC (Intel N100 / dual 2.5GbE Intel NICs)",
   "Physical Network Isolation: Dedicated WAN/Mesh port + isolated IoT sensor subnet",
   "Storage: 1TB Enterprise NVMe TLC (10+ years of 1-second interval climate datalake)",
-  "Spatial Radio: Wi-Fi 6 CSI (52 OFDM subcarriers) + Bluetooth 5.3 BLE controller",
+  "Spatial Radio: ESP32-WROOM Microwave CSI (52 OFDM subcarriers) + BLE mesh",
   "Pre-Flashed Sovereign OS: Hardened Alpine Linux, Watchtower Sentinel, local dnsmasq, and Tailscale mesh",
   "Zero-Touch Setup: BLE phone claim in under 60 seconds via the A:iP Mobile Cockpit",
 ] as const

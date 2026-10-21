@@ -58,7 +58,7 @@ export function SiteFooter() {
   return (
     <footer data-footer="site" style={footer}>
       <div style={columns}>
-        <p style={brand}>A:iX CONTINUUM · Sovereign Edge Operations & Environmental Robotics</p>
+        <p style={brand}>A:iX CORE · Sovereign Edge Operations & Environmental Robotics</p>
         <nav aria-label="Footer" style={nav}>
           {NAV.map((item) => (
             <a key={item.href} href={item.href} style={link}>

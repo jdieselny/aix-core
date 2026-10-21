@@ -135,7 +135,7 @@ export const FAQS: readonly FaqItem[] = [
   {
     question: "How does the photoperiod hardware interlock prevent hermaphroditic crop damage?",
     answer:
-      "During scheduled 12/12 flowering photoperiod dark cycles, Continuum Core enforces an HTTP 423 Locked gating law. Lighting actuator circuits refuse software override commands, preventing accidental nocturnal light illumination that causes genetic stress, seed production, or crop herming.",
+      "During scheduled 12/12 flowering photoperiod dark cycles, A:iG Controller enforces an HTTP 423 Locked gating law. Lighting actuator circuits refuse software override commands, preventing accidental nocturnal light illumination that causes genetic stress, seed production, or crop herming.",
   },
 ] as const
 

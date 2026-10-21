@@ -92,7 +92,7 @@ export function SiteHeader({ stock, showBanner = true }: { stock: number; showBa
             }}
           />
           <span data-pip="cyan" style={pip} />
-          A:iX CONTINUUM
+          A:iX CORE
         </a>
         <nav aria-label="On this page" style={nav}>
           {ANCHORS.map((item) => (

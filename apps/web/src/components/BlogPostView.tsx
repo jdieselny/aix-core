@@ -339,7 +339,7 @@ export function BlogPostView() {
           >
             HTTP/1.1 423 Locked
             <br />
-            X-Continuum-Security: PHOTOPERIOD_DARK_CYCLE_ENGAGED
+            X-AiX-Security: PHOTOPERIOD_DARK_CYCLE_ENGAGED
             <br />
             Message: CANOPY LIGHTING ACTUATOR HARDWARE MUTED UNTIL 06:00:00 UTC
           </div>

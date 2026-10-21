@@ -113,7 +113,7 @@ class WebProductsContractTests(unittest.TestCase):
     def test_footer_renders_copyright_hcl_and_sister_anchor(self) -> None:
         html = self.render("footer")
         self.assertIn('data-footer="site"', html)
-        self.assertIn("A:iX CONTINUUM", html)
+        self.assertIn("A:iX CORE", html)
         self.assertIn(">Hardware Catalog<", html)
         self.assertIn(">HCL v1.0<", html)
         self.assertIn('href="/docs/hcl"', html)
