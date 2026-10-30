@@ -6,7 +6,7 @@
 
 - **A:iX (Apex Protocol & Umbrella):** The overarching sovereign hardware and protocol ecosystem (`https://aix-core.com`). No physical retail device carries this name alone.
 - **A:iG (Agent-In-Garden):** The industrial edge appliance ($499 retail turnkey). Features quad-core low-power compute, dual 2.5GbE air-gapped ports, optoisolated 24V/120V relay contacts, Chernobyl analog thermal cutoff interface, and an onboard encrypted telemetry datalake.
-- **A:iB (Agent-In-Body):** Sovereign air-gapped compute enclave, lights-out datacenter robotics, and off-grid high-assurance processing nodes.
+- **A:iB (Agent-In-Body):** Sovereign air-gapped compute enclave, multi-tank homestead exosystem, lights-out datacenter robotics, and the Hx-2 bipedal humanoid chassis (`LOCUS_HX2_CHASSIS` / `MOD_T800_BODY` / `HOLE E-02`) hydrated in 3.7 ms via GF(2^8) Lazarus Quorum (`BLOCK_A..D` + 13-node ESP32 CSI external proprioception).
 - **A:iP (Agent-In-Pocket):** The tactical mobile cockpit and field companion application. Direct local mTLS glance telemetry, offline-first control, and photoperiod safety interlocks.
 
 ## Architectural Differentiators

@@ -1,4 +1,5 @@
 import type { CSSProperties } from "react"
+import { Argon4SovereignShowcase } from "../components/Argon4SovereignShowcase.js"
 import { CheckoutDrawer } from "../components/CheckoutDrawer.js"
 import { ChernobylSwitchCard } from "../components/ChernobylSwitchCard.js"
 import { CommercialTestbedCard } from "../components/CommercialTestbedCard.js"
@@ -44,6 +45,7 @@ export function StorefrontHomeView({ stock = 2 }: { stock?: number }) {
         <section id="trifecta">
           <TrifectaShowcase />
         </section>
+        <Argon4SovereignShowcase />
         <section id="storefront" data-section="storefront" style={{ display: "grid", gap: 16 }}>
           <h2 style={{ margin: 0 }}>A:iG Garden Hardware</h2>
           <ContinuumCoreCard />

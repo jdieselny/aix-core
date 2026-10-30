@@ -85,7 +85,7 @@ class WebShellContractTests(unittest.TestCase):
             "rgba(18, 20, 28, 0.72)",
             "blur(18px)",
             "#34D399",
-            "#38BDF8",
+            "#FF334B",
             "#FBBF24",
             "#F87171",
             "JetBrains Mono",
@@ -135,7 +135,7 @@ class WebShellContractTests(unittest.TestCase):
         empty = self.render(0)
         self.assertIn(BACKORDER, empty)
         self.assertIn('data-inventory="BACKORDER"', empty)
-        self.assertIn("#38BDF8", empty)
+        self.assertIn("#FF334B", empty)
         self.assertNotIn("SHIPS IN 24H", empty)
         self.assertNotIn("SHIPS TODAY", empty)
 

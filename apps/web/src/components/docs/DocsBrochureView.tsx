@@ -26,10 +26,31 @@ export function DocsBrochureView() {
         A:iX Sovereign Edge Platform — Commercial Overview
       </h1>
 
-      <p style={{ color: "#94A3B8", fontSize: "1.15rem", marginBottom: "2.5rem" }}>
+      <p style={{ color: "#94A3B8", fontSize: "1.15rem", marginBottom: "2rem" }}>
         Autonomous industrial hardware, edge intelligence, and zero-cloud resilience for high-value agricultural
-        facilities and mission-critical power infrastructure.
+        facilities, multi-tank sovereign homesteads, and bipedal robotic embodiment (Hx-2).
       </p>
+
+      {/* Argon 4 Commercial Brochure Spread Hero Plate */}
+      <div
+        style={{
+          marginBottom: "2.5rem",
+          borderRadius: "12px",
+          overflow: "hidden",
+          border: "1px solid rgba(52, 211, 153, 0.3)",
+          background: "#0A0B0F",
+        }}
+      >
+        <img
+          src="/argon4/07_sovereign_brochure_page.jpg"
+          alt="A:iB Continuum Sovereign Exosystem Commercial Brochure Spread"
+          width="1376"
+          height="768"
+          loading="lazy"
+          decoding="async"
+          style={{ width: "100%", height: "auto", display: "block" }}
+        />
+      </div>
 
       {/* Hero Value Props */}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "1rem", marginBottom: "2.5rem" }}>
@@ -125,6 +146,50 @@ export function DocsBrochureView() {
       </section>
 
       {/* Procurement CTA */}
+      <section style={{ marginBottom: "2.5rem" }}>
+        <h2 style={{ fontSize: "1.4rem", color: "#34D399", marginBottom: "1rem" }}>
+          Locus 4 Progression: Agent-In-Body (Hx-2 Bipedal Chassis)
+        </h2>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.25rem" }}>
+          <div style={{ background: "#11141C", borderRadius: "10px", overflow: "hidden", border: "1px solid rgba(255,51,75,0.25)" }}>
+            <img
+              src="/argon4/08_hx2_garage_embodiment_dock.jpg"
+              alt="Hx-2 Garage Embodiment Dock with 3.7ms Lazarus Engram Handoff"
+              width="1376"
+              height="768"
+              loading="lazy"
+              decoding="async"
+              style={{ width: "100%", height: "auto", display: "block" }}
+            />
+            <div style={{ padding: "1rem" }}>
+              <div style={{ color: "#FF334B", fontWeight: 700, fontSize: "0.8rem" }}>PLATE 08 · GARAGE DOCKING GANTRY</div>
+              <div style={{ color: "#FFFFFF", fontWeight: 700, marginTop: "0.25rem" }}>3.7 ms SOMA2 × VECL Body-Stepping</div>
+              <p style={{ color: "#94A3B8", fontSize: "0.85rem", margin: "0.4rem 0 0 0" }}>
+                Streams the 4,468-byte hot engram from 3 room Tanks and 13 ESP32 CSI nodes directly into the Hx-2 thorax core.
+              </p>
+            </div>
+          </div>
+          <div style={{ background: "#11141C", borderRadius: "10px", overflow: "hidden", border: "1px solid rgba(52,211,153,0.25)" }}>
+            <img
+              src="/argon4/09_hx2_bipedal_blueprint_schematic.jpg"
+              alt="Hx-2 Bipedal Embodiment CAD Blueprint Schematic"
+              width="1376"
+              height="768"
+              loading="lazy"
+              decoding="async"
+              style={{ width: "100%", height: "auto", display: "block" }}
+            />
+            <div style={{ padding: "1rem" }}>
+              <div style={{ color: "#34D399", fontWeight: 700, fontSize: "0.8rem" }}>PLATE 09 · MOD_T800_BODY // HOLE E-02</div>
+              <div style={{ color: "#FFFFFF", fontWeight: 700, marginTop: "0.25rem" }}>Orthographic CAD Cutaway &amp; Kinetic Gate</div>
+              <p style={{ color: "#94A3B8", fontSize: "0.85rem", margin: "0.4rem 0 0 0" }}>
+                Maps the 13-node ESP32 external nervous system, Thorax SOMA2 × VECL Core, and TriggerLockGate Ed25519 actuator lattice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section style={{ textAlign: "center", padding: "2rem", background: "rgba(52, 211, 153, 0.05)", borderRadius: "10px", border: "1px solid rgba(52, 211, 153, 0.2)" }}>
         <h3 style={{ fontSize: "1.3rem", fontWeight: 700, color: "#FFFFFF", marginBottom: "0.5rem" }}>
           Reserve Your Commercial Hardware Allocation

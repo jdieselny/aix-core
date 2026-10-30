@@ -4,6 +4,8 @@ import { SISTER_SITE_URL, SisterSiteBanner } from "./SisterSiteBanner.js"
 
 const ANCHORS = [
   { href: "#trifecta", label: "A:iX Trifecta" },
+  { href: "#argon4-showcase", label: "Argon 4 Series" },
+  { href: "#hx2-embodiment", label: "Hx-2 Body" },
   { href: "#storefront", label: "A:iG Garden Hardware" },
   { href: "#diy-calculator", label: "Open DIY BOM" },
   { href: "#compare", label: "Compare" },

@@ -29,6 +29,15 @@ ASSETS = (
     "hardware/aip_mobile_cockpit_in_hand.jpg",
     "hardware/mobile_cockpit_glance_view.jpg",
     "hardware/mobile_homestead_radar_map.jpg",
+    "argon4/01_agent_in_x_progression.jpg",
+    "argon4/02_garage_kids_and_dogs_alert.jpg",
+    "argon4/03_office_worker_coming_home.jpg",
+    "argon4/04_technical_schematic_drawing.jpg",
+    "argon4/05_3d_isometric_overview.jpg",
+    "argon4/06_lazarus_manifestation_stage.jpg",
+    "argon4/07_sovereign_brochure_page.jpg",
+    "argon4/08_hx2_garage_embodiment_dock.jpg",
+    "argon4/09_hx2_bipedal_blueprint_schematic.jpg",
 )
 
 HARDWARE = (
@@ -112,6 +121,8 @@ class WebTrifectaContractTests(unittest.TestCase):
         self.assertIn("minmax(320px, 1fr)", html)
         order = (
             'id="trifecta"',
+            'id="argon4-showcase"',
+            'id="hx2-embodiment"',
             'id="storefront"',
             'id="diy-calculator"',
             'id="compare"',

@@ -52,22 +52,32 @@ const CSS = `
 }
 #aig-appliance-shot:checked ~ .aix-shot-frame img[data-shot="appliance"],
 #aig-unboxing-shot:checked ~ .aix-shot-frame img[data-shot="unboxing"],
+#aig-outpost-shot:checked ~ .aix-shot-frame img[data-shot="outpost"],
 #aib-enclave-shot:checked ~ .aix-shot-frame img[data-shot="enclave"],
 #aib-rack-shot:checked ~ .aix-shot-frame img[data-shot="rack"],
 #aib-robot-shot:checked ~ .aix-shot-frame img[data-shot="robot"],
+#aib-hx2-dock-shot:checked ~ .aix-shot-frame img[data-shot="hx2-dock"],
+#aib-hx2-cad-shot:checked ~ .aix-shot-frame img[data-shot="hx2-cad"],
 #aip-hand-shot:checked ~ .aix-shot-frame img[data-shot="hand"],
 #aip-glance-shot:checked ~ .aix-shot-frame img[data-shot="glance"],
-#aip-radar-shot:checked ~ .aix-shot-frame img[data-shot="radar"] {
+#aip-radar-shot:checked ~ .aix-shot-frame img[data-shot="radar"],
+#aip-rockwell-shot:checked ~ .aix-shot-frame img[data-shot="rockwell"],
+#aip-tomography-shot:checked ~ .aix-shot-frame img[data-shot="tomography"] {
   opacity: 1;
 }
 #aig-appliance-shot:checked ~ .aix-shot-picks label[for="aig-appliance-shot"],
 #aig-unboxing-shot:checked ~ .aix-shot-picks label[for="aig-unboxing-shot"],
+#aig-outpost-shot:checked ~ .aix-shot-picks label[for="aig-outpost-shot"],
 #aib-enclave-shot:checked ~ .aix-shot-picks label[for="aib-enclave-shot"],
 #aib-rack-shot:checked ~ .aix-shot-picks label[for="aib-rack-shot"],
 #aib-robot-shot:checked ~ .aix-shot-picks label[for="aib-robot-shot"],
+#aib-hx2-dock-shot:checked ~ .aix-shot-picks label[for="aib-hx2-dock-shot"],
+#aib-hx2-cad-shot:checked ~ .aix-shot-picks label[for="aib-hx2-cad-shot"],
 #aip-hand-shot:checked ~ .aix-shot-picks label[for="aip-hand-shot"],
 #aip-glance-shot:checked ~ .aix-shot-picks label[for="aip-glance-shot"],
-#aip-radar-shot:checked ~ .aix-shot-picks label[for="aip-radar-shot"] {
+#aip-radar-shot:checked ~ .aix-shot-picks label[for="aip-radar-shot"],
+#aip-rockwell-shot:checked ~ .aix-shot-picks label[for="aip-rockwell-shot"],
+#aip-tomography-shot:checked ~ .aix-shot-picks label[for="aip-tomography-shot"] {
   background: linear-gradient(135deg, #FF334B 0%, #FF7A59 100%);
   color: #0A0B0F;
   box-shadow: 0 0 16px rgba(255, 51, 75, 0.45);
@@ -160,9 +170,11 @@ export function TrifectaShowcase() {
           <div className="aix-shot" data-visual="aig">
             <input id="aig-appliance-shot" name="aig-visual" type="radio" defaultChecked />
             <input id="aig-unboxing-shot" name="aig-visual" type="radio" />
+            <input id="aig-outpost-shot" name="aig-visual" type="radio" />
             <div className="aix-shot-picks">
               <label htmlFor="aig-appliance-shot">A:iG Turnkey Appliance</label>
               <label htmlFor="aig-unboxing-shot">Unboxing</label>
+              <label htmlFor="aig-outpost-shot">Garage Outpost CSI</label>
             </div>
             <div
               className="aix-shot-frame"
@@ -182,6 +194,13 @@ export function TrifectaShowcase() {
                     1376,
                     768,
                     "unboxing",
+                  ) +
+                  photoTag(
+                    "/argon4/02_garage_kids_and_dogs_alert.jpg",
+                    "A:iG Tank 2 Garage Outpost with canine back-door CSI alert",
+                    1376,
+                    768,
+                    "outpost",
                   ),
               }}
             />
@@ -204,10 +223,14 @@ export function TrifectaShowcase() {
             <input id="aib-enclave-shot" name="aib-visual" type="radio" defaultChecked />
             <input id="aib-rack-shot" name="aib-visual" type="radio" />
             <input id="aib-robot-shot" name="aib-visual" type="radio" />
+            <input id="aib-hx2-dock-shot" name="aib-visual" type="radio" />
+            <input id="aib-hx2-cad-shot" name="aib-visual" type="radio" />
             <div className="aix-shot-picks">
               <label htmlFor="aib-enclave-shot">Homestead enclave</label>
               <label htmlFor="aib-rack-shot">Enterprise rack</label>
               <label htmlFor="aib-robot-shot">Datacenter robot</label>
+              <label htmlFor="aib-hx2-dock-shot">Hx-2 Garage Dock</label>
+              <label htmlFor="aib-hx2-cad-shot">Hx-2 CAD Blueprint</label>
             </div>
             <div className="aix-shot-frame" data-ratio="square" dangerouslySetInnerHTML={{
               __html:
@@ -219,6 +242,20 @@ export function TrifectaShowcase() {
                   1376,
                   768,
                   "robot",
+                ) +
+                photoTag(
+                  "/argon4/08_hx2_garage_embodiment_dock.jpg",
+                  "Hx-2 bipedal humanoid stepping from garage docking gantry with 3.7ms Lazarus engram stream",
+                  1376,
+                  768,
+                  "hx2-dock",
+                ) +
+                photoTag(
+                  "/argon4/09_hx2_bipedal_blueprint_schematic.jpg",
+                  "Hx-2 / A:iX Bipedal Embodiment CAD Cutaway Schematic",
+                  1376,
+                  768,
+                  "hx2-cad",
                 ),
             }} />
           </div>
@@ -241,10 +278,14 @@ export function TrifectaShowcase() {
             <input id="aip-hand-shot" name="aip-visual" type="radio" defaultChecked />
             <input id="aip-glance-shot" name="aip-visual" type="radio" />
             <input id="aip-radar-shot" name="aip-visual" type="radio" />
+            <input id="aip-rockwell-shot" name="aip-visual" type="radio" />
+            <input id="aip-tomography-shot" name="aip-visual" type="radio" />
             <div className="aix-shot-picks">
               <label htmlFor="aip-hand-shot">In-hand cockpit</label>
               <label htmlFor="aip-glance-shot">Glance</label>
               <label htmlFor="aip-radar-shot">Homestead radar</label>
+              <label htmlFor="aip-rockwell-shot">Rockwell Arrival</label>
+              <label htmlFor="aip-tomography-shot">3D RF Tomography</label>
             </div>
             <div className="aix-shot-frame" data-ratio="pocket" dangerouslySetInnerHTML={{
               __html:
@@ -268,6 +309,20 @@ export function TrifectaShowcase() {
                   768,
                   1376,
                   "radar",
+                ) +
+                photoTag(
+                  "/argon4/03_office_worker_coming_home.jpg",
+                  "Operation Rockwell SWM evening arrival with WTI A8 pre-actuation and 50-inch OLED HUD",
+                  1376,
+                  768,
+                  "rockwell",
+                ) +
+                photoTag(
+                  "/argon4/05_3d_isometric_overview.jpg",
+                  "3D Isometric Homestead and 13-node ESP32 microwave CSI tomography overview",
+                  1376,
+                  768,
+                  "tomography",
                 ),
             }} />
           </div>

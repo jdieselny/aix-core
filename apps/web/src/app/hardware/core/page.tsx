@@ -191,6 +191,81 @@ export default function HardwareCorePage() {
         <SubstrateDrybackTelemetryCard />
       </section>
 
+      {/* Argon 4 Sovereign Architecture & Hx-2 Embodiment Blueprints */}
+      <section style={{ marginBottom: "3rem", display: "grid", gap: "1.25rem" }}>
+        <h2
+          style={{
+            fontSize: "1.4rem",
+            fontFamily: '"JetBrains Mono", monospace',
+            color: "#34D399",
+            margin: 0,
+          }}
+        >
+          [ ARGON 4 SOVEREIGN SCHEMATICS &amp; Hx-2 EMBODIMENT ]
+        </h2>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+            gap: "1.25rem",
+          }}
+        >
+          <div
+            style={{
+              background: "rgba(18, 20, 28, 0.8)",
+              border: "1px solid rgba(52, 211, 153, 0.25)",
+              borderRadius: 14,
+              overflow: "hidden",
+            }}
+          >
+            <img
+              src="/argon4/04_technical_schematic_drawing.jpg"
+              alt="COSA v2.0 + SOMA2 + VECL + Lazarus Quorum Technical Schematic"
+              width="1376"
+              height="768"
+              loading="lazy"
+              decoding="async"
+              style={{ width: "100%", height: "auto", display: "block" }}
+            />
+            <div style={{ padding: "1rem" }}>
+              <div style={{ color: "#34D399", fontWeight: 700, fontSize: "0.85rem" }}>
+                PLATE 04 · COSA v2.0 + SOMA2 + VECL + LAZARUS SCHEMATIC
+              </div>
+              <p style={{ fontSize: "0.85rem", color: "#9AA3B5", margin: "0.4rem 0 0 0", lineHeight: 1.5 }}>
+                4-Tier COSA architecture, 85 SOMA2 Merkle shards, 42 TB read-only NFS datalake, and GF(2^8) quorum sharding.
+              </p>
+            </div>
+          </div>
+
+          <div
+            style={{
+              background: "rgba(18, 20, 28, 0.8)",
+              border: "1px solid rgba(255, 51, 75, 0.25)",
+              borderRadius: 14,
+              overflow: "hidden",
+            }}
+          >
+            <img
+              src="/argon4/09_hx2_bipedal_blueprint_schematic.jpg"
+              alt="Hx-2 / A:iX Bipedal Embodiment CAD Blueprint"
+              width="1376"
+              height="768"
+              loading="lazy"
+              decoding="async"
+              style={{ width: "100%", height: "auto", display: "block" }}
+            />
+            <div style={{ padding: "1rem" }}>
+              <div style={{ color: "#FF334B", fontWeight: 700, fontSize: "0.85rem" }}>
+                PLATE 09 · AGENT-IN-BODY (Hx-2) CAD BLUEPRINT (HOLE E-02)
+              </div>
+              <p style={{ fontSize: "0.85rem", color: "#9AA3B5", margin: "0.4rem 0 0 0", lineHeight: 1.5 }}>
+                Thorax 4,468-byte hot engram core, 13-node ESP32 CSI external nervous system, and TriggerLockGate Ed25519 lattice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section
         style={{
